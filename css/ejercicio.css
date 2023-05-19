@@ -1,0 +1,14 @@
+.button::before {
+    content: 'Pasa por encima';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    background-color: green;
+    -webkit-text-fill-color: white;
+}
+
+.button:hover::before {
+    content: '¡Hecho!';
+    cursor: pointer;
+}
